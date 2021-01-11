@@ -1,9 +1,9 @@
-const  XBOT = 'AMPIBI'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/affis_saputro123'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+6282334297175'; // Nomor whatsapplu cok
-const aktif = 'Tergantung kuota'; // Kapan bot lu aktif
+const  XBOT = 'F4S XD'; // Nama Bot Whatsapp
+const instagram = 'https://instagram.com/ferdi_ardian21'; // Nama Instagramlu cok
+const nomer = 'https://Wa.me/+6282169369877'; // Nomor whatsapplu cok
+const aktif = '24 Jam'; // Kapan bot lu aktif
 const groupwa = 'comming soon'; // OFFICIAL GRUP LU 1
-const youtube = 'https://youtube.com/channel/UCYKxsg7iF9a9IZyXQRNsvqw'; 
+const youtube = '❌NOTHING❌'; 
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
 const cheerio = require("cheerio");
@@ -21,9 +21,9 @@ const speed = require('performance-now');
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:affis\n' // full name
-            + 'ORG:Owner  XBOT Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' // WhatsApp ID + phone number
+            + 'FN:FerdiArdian\n' // full name
+            + 'ORG:Owner  F4S XD Bot;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6282169369877:+62 821-6936-9877\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 
 const
@@ -119,7 +119,7 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 }
 
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, '3aalaikumsalam, Ketik #menu/#info/#donasi Contoh #menu' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik #menu/#info/#donasi Contoh #menu' ,MessageType.text);
 }
 else if (text == 'salam'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik #menu/#info/#donasi Contoh #menu' ,MessageType.text);
@@ -140,16 +140,16 @@ else if (text == 'Halo'){
 conn.sendMessage(id, 'Ya?, Ketik #menu/#info/#donasi Contoh #menu' ,MessageType.text);
 }
 else if (text == 'Asu'){
-conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
+conn.sendMessage(id, 'Apa gak telima bangiwan dek :v' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, 'Owner XBOT wa.me/+6282334297175' ,MessageType.text);
+conn.sendMessage(id, 'Ferdi Sayang♥️ wa.me/+6282169369877' ,MessageType.text);
 }
-else if (text == 'affis'){
-conn.sendMessage(id, 'Aku BOT nya XBOT' ,MessageType.text);
+else if (text == 'Fer'){
+conn.sendMessage(id, 'Dia siapa yang? kok nyari kamu si 🙄' ,MessageType.text);
 }
-else if (text == 'audio'){
-conn.sendMessage(id, 'pacar owner ihh' ,MessageType.text);
+else if (text == 'Bot'){
+conn.sendMessage(id, 'Knp aku udh punya Ferdi😒' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
@@ -191,10 +191,10 @@ else if (text == 'Min'){
 conn.sendMessage(id, 'Ya?, Ketik #menu/#info/#donasi Contoh #menu' ,MessageType.text);
 }
 else if (text == 'Sayang'){
-conn.sendMessage(id, 'Ya?, Ketik #menu/#info/#donasi Contoh #menu' ,MessageType.text);
+conn.sendMessage(id, 'Sayang sayang Fer kasih faham' ,MessageType.text);
 }
 else if (text == 'I love u'){
-conn.sendMessage(id, 'love you too' ,MessageType.text);
+conn.sendMessage(id, 'hmmm' ,MessageType.text);
 }
 else if (text == 'Mas'){
 conn.sendMessage(id, 'Ya?, Ketik #menu/#info/#donasi Contoh #menu' ,MessageType.text);
