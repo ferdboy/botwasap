@@ -272,7 +272,7 @@ axios.get(`https://st4rz.herokuapp.com/api/yta?url=${teks}`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-else if (text == 'ping') {
+else if (text == 'Ping') {
 const timestamp = speed();
 const latensi = speed() - timestamp
 conn.sendMessage(id, `PONG!!\nSpeed: ${latensi.toFixed(4)} _Second_`, MessageType.text, {quoted: m})
@@ -1823,31 +1823,31 @@ let hasil = fs.readFileSync('mp3/' + 'PTT' + '.wav')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
 if (text.includes("test")){
-let err = fs.readFileSync('mp3/' + 'test' + '.wav')
+let hasil = fs.readFileSync('mp3/' + 'test' + '.wav')
  conn.sendMessage(id, err, MessageType.audio, { quoted: m })
 }
 if (text.includes("salam")){
-let err = fs.readFileSync('mp3/' + 'salam' + '.mp3')
+let hasil = fs.readFileSync('mp3/' + 'salam' + '.mp3')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true })
 }
 if (text.includes("tariksis")){
-let err = fs.readFileSync('mp3/' + 'tariksis' + '.wav')
+let hasil = fs.readFileSync('mp3/' + 'tariksis' + '.wav')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
 if (text.includes('bot')) {
  var nomor = m.participant
  const options = {
-       text: `apa manggil manggil tinggal ketik #menu @${nomor.split("@s.whatsapp.net")[0]}, Ketik #menu untuk menampilkan perintah yaa`,
+       text: `Ada yang bisa saya bantu kak? ketik @${nomor.split("@s.whatsapp.net")[0]}, Ketik #menu untuk menampilkan perintah yaa`,
        contextInfo: { mentionedJid: [nomor] }
  }
  conn.sendMessage(id, options, MessageType.text, { quoted: m })
 }
 if (text.includes("desah")){
-let err = fs.readFileSync('mp3/' + 'desah' + '.wav')
+let hasil = fs.readFileSync('mp3/' + 'desah' + '.wav')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
 if (text.includes("iri")){
-let err = fs.readFileSync('mp3/' + 'iri' + '.mp3')
+let hasil = fs.readFileSync('mp3/' + 'iri' + '.mp3')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
 else if (text == 'baka'){
